@@ -4,13 +4,13 @@ import telebot
 import time
 import random
 
-load_dotenv()
-my_secret = os.getenv('API_KEY')
+
+# my_secret = os.environ['API_KEY']
 x = ["الله يعين", "الله يعين ، مدري شقولك بس الله يعين", "الله ييسرها"]
 
 random.seed(time.time())
 
-bot = telebot.TeleBot(my_secret)
+bot = telebot.TeleBot(API_KEY)
 
 
 @bot.message_handler(content_types=['text'])
