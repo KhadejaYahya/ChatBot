@@ -10,7 +10,7 @@ x = ["الله يعين", "الله يعين ، مدري شقولك بس الل�
 
 random.seed(time.time())
 
-bot = telebot.TeleBot(API_KEY)
+bot = telebot.TeleBot('5527949956:AAFSoW3lXflQ1WzFtjymt2QqgLOwoMUy340')
 
 
 @bot.message_handler(content_types=['text'])
